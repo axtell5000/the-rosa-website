@@ -255,3 +255,69 @@ header {
   background-color: var(--secondary-font-color);
   color: #ffffff;
 }
+
+/* Discover our story */
+.global-headline {
+  margin-top: 3.9rem;
+  text-align: center;
+}
+
+.discover-our-story .global-headline {
+  margin-top: 6.9rem;
+}
+
+.global-headline .asterisk {
+  color: var(--body-font-color);
+  margin: 2.4rem 0;
+}
+
+.headline-dark {
+  color: var(--main-font-color-dark);
+  letter-spacing: 0.7rem;
+  margin-right: -0.7rem;
+}
+
+.global-headline .sub-headline {
+  letter-spacing: -1px;
+}
+
+.restaurant-info {
+  text-align: center;
+}
+
+.restaurant-description {
+  margin-bottom: 3rem;
+}
+
+.restaurant-description p {
+  line-height: 1.6;
+  margin-bottom: 2.4rem;
+}
+
+.body-btn {
+  color: var(--secondary-font-color);
+  font-size: 1.5rem;
+  position: relative;
+  transition: color 0.5s;
+}
+
+.body-btn::before {
+  background-color: var(--secondary-font-color);
+  bottom: -3px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transition: background-color 0.5s;
+  width: 100%;
+}
+
+.body-btn:hover,
+.body-btn:focus {
+  color: var(--main-font-color-dark);
+}
+
+.body-btn:hover::before,
+.body-btn:focus::before {
+  background-color: var(--main-font-color-dark);
+}
