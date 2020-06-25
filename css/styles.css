@@ -449,3 +449,117 @@ footer {
   top: 50%;
   transform: translateY(-50%);
 }
+
+/* Media queries */
+@media screen and (min-width: 900px) {
+  section {
+    padding: 7.9rem
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav {
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    background-color: transparent;
+    flex-direction: row;
+    height: initial;
+    justify-content: initial;
+    padding: 0;
+    position: initial;
+    transform: initial;
+    transition: initial;
+    width: initial;
+  }
+
+  .nav-item {
+    border: none;
+    margin: 0 2.4rem;
+  }
+
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+
+  .nav-link {
+    font-size: 1.3rem;
+  }
+
+  .active {
+    position: relative;
+  }
+
+  .active::before {
+    background-color: #ffffff;
+    bottom: -3px;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  .sub-headline {
+    font-size: 10rem;
+  }
+
+  .first-letter {
+    font-size: 12.2rem;
+  }
+
+  .headline {
+    font-size: 4.7rem;
+    letter-spacing: .8rem;
+  }
+
+  .line {
+    max-width: 11.4rem;
+  }
+
+  .restaurant-info {
+    align-items: center;
+    display: flex;
+  }
+
+  .restaurant-info>div {
+    flex: 1;
+  }
+
+  .padding-right {
+    padding-right: 7rem;
+  }
+
+  .footer-content {
+    margin: 0 auto;
+    max-width: 77.5rem;
+  }
+
+  .footer-content-about {
+    margin: 0 auto 5.4rem auto;
+    max-width: 51.3rem;
+  }
+
+  .footer-content-divider {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social-media,
+  .newsletter-form {
+    margin: 0 1rem;
+    max-width: 27.3rem;
+    width: 100%;
+  }
+
+  .social-icons i {
+    opacity: 1;
+  }
+
+  .newsletter-btn {
+    margin-left: 12.5rem;
+  }
+}
